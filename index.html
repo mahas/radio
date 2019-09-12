@@ -1,14 +1,18 @@
-﻿<html>
+<html>
 <head>
 <title>Vrindavana Estereo</title>
 <!--Historial Head-->
 <link href="https://manager2.creativradio.com:1810/media/static/css/widget-status.css" rel="stylesheet">
 <!--/Historial Head-->
 </head>
-<body>
-  <div style="float: left; width: 65%;">
-    <font size="+2">
+<body style="margin: 0; padding: 0;">
+   
+    
+    <div style="float: left; width: 65%;">
+        <h1 style="40px;">
+            
 <!--Player-->
+
 <link href="https://manager2.creativradio.com:1810/media/static/css/player/base.css" rel="stylesheet" type="text/css" />
 <link href="https://manager2.creativradio.com:1810/media/static/css/player/style-4.css" rel="stylesheet" type="text/css" />
 <link href="https://manager2.creativradio.com:1810/media/static/css/ui/jquery.ui.slider.css" rel="stylesheet" type="text/css" />
@@ -33,10 +37,12 @@ if (typeof jQuery == 'undefined') {
 </div>
 </div>
 <script>$(document).ready( function(){ new RTPlayer( 1, 50, false, "https://manager2.creativradio.com:1810",  "mp3", {"mp3": "https://manager2.creativradio.com:1825/stream"}, "en")  });</script>
+
 <!--/Player-->
 <!--Actual-->
 <br>
 Canción Actual ¿Te gusta? Vota ahora:
+ 
 </br>
 <div style="width: 400px;">
 <div class="sc-status-widget">
@@ -89,17 +95,17 @@ ip-timeout="1800000"
 track-timeout="1800000"
 bgcolor="#ffffff"
 bgopacity="1"
-tracks_num="20"
+tracks_num="15"
 track_width="180"
 track_image_default="https://manager2.creativradio.com:1810/media/tracks/default_track_img.png"
-meta_font_size="14"
+meta_font_size="16"
 meta_font_style="normal"
 meta_font_color="#000000"
 meta_opacity="1"
 button_color="#8d9ca3"
 button_color_active="#bdbf91"
 button_font_color="#ffffff"
-button_font_size="14"
+button_font_size="16"
 ordering="2"
 allow_person_and_message="true"
 modal_background_color="#ffffff"
@@ -126,7 +132,8 @@ if (typeof jQuery == 'undefined') {
 jQuery(document).ready(function(){new StatusWidget({"djImage":false,"djName":true,"listenersNum":true,"trackCurrent":true,"history":true,"widgetWidth":550}, 1, "https://manager2.creativradio.com:1810", "#RTWidgetStatus", "en");});
 </script>
  
-<!--/Historial End->
-</font>
+<!--/Historial End-->
+</h1>
+
 </body>
 </html>
