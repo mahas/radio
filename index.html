@@ -2,7 +2,7 @@
 <head>
 <title>Ecos de Vrindavana</title>
 <!--Historial Head-->
-<link href="https://manager2.creativradio.com:1810/media/static/css/widget-status.css" rel="stylesheet">
+<!--<link href="https://manager2.creativradio.com:1810/media/static/css/widget-status.css" rel="stylesheet"> -->
 <!--/Historial Head-->
 </head>
 <body topmargin=10 leftmargin=20>
@@ -14,142 +14,59 @@
             
 <!--Player-->
            
-           <link href="https://manager2.creativradio.com:1810/media/static/css/player/base.css" rel="stylesheet" type="text/css" />
-<link href="https://manager2.creativradio.com:1810/media/static/css/player/style-4.css" rel="stylesheet" type="text/css" />
-<link href="https://manager2.creativradio.com:1810/media/static/css/ui/jquery.ui.slider.css" rel="stylesheet" type="text/css" />
-<script>
-if (typeof jQuery == 'undefined') { 
-  var i = "i";
-  document.write('<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></scr' + i + 'pt>');
-}
-</script>
-<script type="text/javascript" src="https://manager2.creativradio.com:1810/media/static/js/jplayer/jquery.jplayer.min.js"></script>
-<script type="text/javascript" src="https://manager2.creativradio.com:1810/media/static/js/jplayer/jquery-ui-1.10.2.custom.min.js"></script>
-<script type="text/javascript" src="https://manager2.creativradio.com:1810/media/static/js/jplayer/modernizr.js"></script>
-<script type="text/javascript" src="https://manager2.creativradio.com:1810/media/static/js/jplayer/rt_pl.js"></script>
-<div id="rtJpID-1"></div>
-<div class="rtplwrapperForIe">
-<div id="rtplayer-1" class="rtplmain_window gradient_style-4">
-<a id="button_play_stop-1" class="rtplbutton_play_stop button_play_stop_style-4" href="#"></a>
-<div id="current_time-1" class="rtplcurrent_time">00:00:00</div>
-<a id="rtplmute-1" class="rtplmute button_mute_style-4" href="#"></a>
-<div id="rtplvolume-1" class="rtplvolume"></div>
-<a id="rtplmaxvol-1" class="rtplmaxvol button_max_vol_style-4" href="#"></a>
-</div>
-</div>
-<script>$(document).ready( function(){ new RTPlayer( 1, 50, false, "https://manager2.creativradio.com:1810",  "mp3", {"mp3": "https://manager2.creativradio.com:1825/stream"}, "en")  });</script>
-           
-           <!-- Inicio. radio hosting USAstreams.com html5 player -->
-<!-- Licencia: GRATIS-XDF4543ERF -->
-<!-- <iframe name="contenedorPlayer" class="cuadroBordeado" allow="autoplay" width="100%" height="110px" marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling=no  src="https://cp.usastreams.com/html5-player-barra-responsive-foto.aspx?stream=http://manager2.creativradio.com:1820/stream&fondo=12&formato=mp3&color=14&titulo=2&autoStart=20&vol=5&nombre=Ecos+de+Vrindavana&server=http://manager2.creativradio.com:1820/status.xslCHUMILLASmount=/stream"><a href="https://www.usastreams.com/" alt = "Usastreams.com posicionamiento web, Servicios SEO y SEM, servicios streaming" title="Planes y Tarifas de Streaming ,hosting de tv vivo ,streaming para television hd ,hosting television gratis,">Servicios SEO ,streaming hosting radio</a></iframe> 
--->
-<!-- En players responsive puede modificar el weight a sus necesidades, Por favor no modifique el resto del codigo para poder seguir ofreciendo este servicio gratis  -->
-<!-- Fin. USAstreams.com html5 player --> 
-           
-    
-           
-           <!--ensayo-->
-
-
-<!--/Player-->
-<!--Actual-->
-<br>
-Canción Actual ¿Te gusta? Vota ahora:
- 
-</br>
-<div style="width: 600px;">
-<div class="sc-status-widget">
-<div is="stream-status-widget" 
+           <div style="width: 1000px;"  id="sc-player">
+<div
+is="player"
 lang="en" 
-api-base="https://manager2.creativradio.com:1810/api/v2" 
-server-id="1" 
-bgcolor="#ffffff"
-bgopacity="1"
-bgimage=""
-meta_font_size="20"
-meta_font_style="normal"
-meta_font_color="#000000"
-meta_opacity="1"
-progress_bar_color="#486bcd"
-progress_bar_bg_color="#e1e1e1"
-progress_bar_height="25"
-progress_opacity="1"
-progress_font_color="#000000"
-progress_font_opacity="1"
-track_image_default="https://manager2.creativradio.com:1810/media/tracks/default_track_img.png"
-track_image_size="100"
-vote_show="true"
-vote_buttons_color="#000000"
-vote_results_font_color_neg="#ff0000"
-vote_results_font_color_pos="#00ff00"
-vote_results_font_size="14"
+api-url="https://manager7.streamradio.fr:2860/api/v2"
+server-id="1"
+station-name="Ecos de Vrindavana"
+station-url="https://ecosdevrindavana.com"
+imagecontainer="left"
+imagecontainer-bg="#78a3b5"
+controlscontainer="right"
+controlscontainer-bg="#d6d6d6"
+controlscontainer-bg-img="https://manager7.streamradio.fr:2860/media/player_bg/player_bg.jpg"
+historycontainer="both"
+historycontainer-bg="#cdd8e5"
+:show-history="true"
+history-limit="10"
+sharecontainer="both"
+sharecontainer-bg="null"
+:show-share="true"
+share-url=""
+:share="['facebook','telegram','twitter']"
+:show-dj="true"
+default-dj-img="https://manager7.streamradio.fr:2860/media/djs/dj.png"
+:show-image="true"
+default-cover-image="https://manager7.streamradio.fr:2860/media/tracks/default_track_img.png"
+play-button-color="#35495e"
+play-button-bg="null"
+visualizer-outline-color="#37679a"
+visualizer-bar-width="1"
+channels-switch-bg="#4165b9"
+channels-switch-color="#ffffff"
+channels-switch-bg-active="#dddddd"
+channels-switch-color-active="#000000"
+:show-vote="true"
+vote-buttons-color="#35495e"
+vote-buttons-opacity="1"
+vote-results-font-color="#FFFFFF"
+vote-results-font-size="16"
+:progress-show="true"
+progress-bar-color="#35495e"
+progress-bar-bg-color="#41b883"
+progress-bar-bg-opacity="0.1"
+progress-bar-bg-height="25"
+progress-bar-opacity="1"
+progress-font-color="#FFFFFF"
+progress-font-size="12"
+progress-bar-bg-radius="10"
+progress-bar-bg-border="#F5F5F5"
+player-width="1000px"
 >
 </div>
 </div>
-</div>
-<link rel="stylesheet" type="text/css" href="https://manager2.creativradio.com:1810/media/static/css/current_track_widget/status_widget.css" />
-<script type="text/javascript" src="https://manager2.creativradio.com:1810/media/static/js/current_track_widget/status_widget.js"></script>
-<!--/Actual-->
-<!--Historial-->
-<br>
-Canciones recientes:
-<div id="RTWidgetStatus"></div>
-
-<!--Solicitudes-->
-<br>
-Busca tu canción favorita y solicítala: 
-<div>
-<div class="sc-track-request-widget">
-<div is="track-request-widget" 
-lang="en" 
-api-base="https://manager2.creativradio.com:1810/api/v2" 
-server-id="1" 
-ip-timeout="1800000"
-track-timeout="1800000"
-bgcolor="#ffffff"
-bgopacity="1"
-tracks_num="15"
-track_width="180"
-track_image_default="https://manager2.creativradio.com:1810/media/tracks/default_track_img.png"
-meta_font_size="16"
-meta_font_style="normal"
-meta_font_color="#000000"
-meta_opacity="1"
-button_color="#8d9ca3"
-button_color_active="#bdbf91"
-button_font_color="#ffffff"
-button_font_size="16"
-ordering="2"
-allow_person_and_message="true"
-modal_background_color="#ffffff"
-modal_font_color="#000000"
-modal_background_opacity="1"
->
-</div>
-</div>
-</div>
-<link rel="stylesheet" type="text/css" href="https://manager2.creativradio.com:1810/media/static/css/request_track_widget/request_widget.css" />
-<script type="text/javascript" src="https://manager2.creativradio.com:1810/media/static/js/request_track_widget/request_widget.js"></script>
-<!--/Solicitudes-->
-
-<!--Historial End-->
-<script>
-if (typeof jQuery == 'undefined') { 
-  var i = "i";
-  document.write('<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></scr' + i + 'pt>');
-}
-</script>
-<script type="text/javascript" src="https://yandex.st/jquery/tmpl/1.0.0pre/jquery.tmpl.min.js"></script>
-<script type="text/javascript" src="https://manager2.creativradio.com:1810/media/static/js/external/status-widget.js"></script>
-<script type="text/javascript">
-jQuery(document).ready(function(){new StatusWidget({"djImage":false,"djName":true,"listenersNum":true,"trackCurrent":true,"history":true,"widgetWidth":550}, 1, "https://manager2.creativradio.com:1810", "#RTWidgetStatus", "en");});
-</script>
-</center>
-<!--/Historial End-->
-</h1>
-<a href="http://ecosdevrindavana.com">Ecos de Vrindavana</a>
-   <!-- Start of HubSpot Embed Code -->
-  <script type="text/javascript" id="hs-script-loader" async="" defer="" src="//js.hs-scripts.com/8184538.js"></script>
-<!-- End of HubSpot Embed Code -->
+<script type="text/javascript" src="https://manager7.streamradio.fr:2860/media/static/js/sc_player/sc_player.js"></script>
 </body>
 </html>
